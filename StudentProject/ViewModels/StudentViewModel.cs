@@ -21,6 +21,9 @@ namespace StudentProject.ViewModels
         [ObservableProperty]
         private ObservableCollection<Student> _students = new ObservableCollection<Student>();
 
+        [ObservableProperty]
+        private Student _selectedStudent;
+
         public StudentViewModel()
         {
             _student = new Student();
