@@ -28,6 +28,8 @@ namespace StudentProject.ViewModels
         {
             _student = new Student();
             Students.Add(new Student("Elek", "Teszt", System.DateTime.Now, 9, SchoolClassType.ClassA, ""));
+            //Students.Add(new Student("Elek", "Teszt", System.DateTime.Now, 9, SchoolClassType.ClassA, ""));
+            SelectedStudent = new Student();
         }
         [RelayCommand]
         public void DoSave(Student newStudent)
