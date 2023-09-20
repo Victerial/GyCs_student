@@ -11,6 +11,8 @@ namespace StudentProject.ViewModels
         [ObservableProperty]
         private Student _student;
 
+
+
         [ObservableProperty]
         private List<string> _educationLevels = new EducationLevels().AllEducationLevels;
         private ObservableCollection<string> _educationLevels = new ObservableCollection<string>(new EducationLevels().AllEducationLevels);
@@ -23,6 +25,12 @@ namespace StudentProject.ViewModels
 
         [ObservableProperty]
         private Student _selectedStudent;
+
+        private string _selectedEducationLevel;
+        public string SelectedEducationLevel
+        {
+            get => _selectedEducationLevel;
+        }
 
         public StudentViewModel()
         {
