@@ -39,13 +39,14 @@ namespace StudentProject.ViewModels
                 SelectedStudent.EducationLevel = _selectedEducationLevel;
             }
         }
-        
-     }
+        private string _selectedEducationLevel = string.Empty;
+
+    }
 
     public StudentViewModel()
         {
             _student = new Student();
-        SelectedEducationLevel = _educationLevels.ElementAt(0);
+            SelectedEducationLevel = _educationLevels.ElementAt(0);
         Students.Add(new Student("Elek", "Teszt", System.DateTime.Now, 9, SchoolClassType.ClassA, ""));
             //Students.Add(new Student("Elek", "Teszt", System.DateTime.Now, 9, SchoolClassType.ClassA, ""));
             SelectedStudent = new Student();
