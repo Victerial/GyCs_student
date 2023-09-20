@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.Input;
 using StudentProject.Models;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace StudentProject.ViewModels
 {
@@ -28,6 +29,7 @@ namespace StudentProject.ViewModels
 
         private string _selectedEducationLevel;
         private string _selectedEducationLevel = string.Empty;
+        
         public string SelectedEducationLevel
         {
             get => _selectedEducationLevel;
@@ -43,7 +45,8 @@ namespace StudentProject.ViewModels
     public StudentViewModel()
         {
             _student = new Student();
-            Students.Add(new Student("Elek", "Teszt", System.DateTime.Now, 9, SchoolClassType.ClassA, ""));
+        SelectedEducationLevel = _educationLevels.ElementAt(0);
+        Students.Add(new Student("Elek", "Teszt", System.DateTime.Now, 9, SchoolClassType.ClassA, ""));
             //Students.Add(new Student("Elek", "Teszt", System.DateTime.Now, 9, SchoolClassType.ClassA, ""));
             SelectedStudent = new Student();
         }
