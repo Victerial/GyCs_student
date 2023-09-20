@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\SULIS\2023-2024\gycs\projest_upgrade\StudentProject\obj\Debug\net6.0-windows\
+D:\SULIS\2023-2024\gycs\project_upgrade\StudentProject\obj\Debug\net6.0-windows\
 StudentProject
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\SULIS\2023-2024\gycs\projest_upgrade\StudentProject\App.xaml
+D:\SULIS\2023-2024\gycs\project_upgrade\StudentProject\App.xaml
 11407045341
 
 8-1142262723
 2001576177576
 MainWindow.xaml;
 
-True
+False
 

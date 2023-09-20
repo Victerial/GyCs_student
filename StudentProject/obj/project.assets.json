@@ -170,11 +170,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SULIS\\2023-2024\\gycs\\projest_upgrade\\StudentProject\\StudentProject.csproj",
+      "projectUniqueName": "D:\\SULIS\\2023-2024\\gycs\\project_upgrade\\StudentProject\\StudentProject.csproj",
       "projectName": "StudentProject",
-      "projectPath": "D:\\SULIS\\2023-2024\\gycs\\projest_upgrade\\StudentProject\\StudentProject.csproj",
+      "projectPath": "D:\\SULIS\\2023-2024\\gycs\\project_upgrade\\StudentProject\\StudentProject.csproj",
       "packagesPath": "C:\\Users\\mnand\\.nuget\\packages\\",
-      "outputPath": "D:\\SULIS\\2023-2024\\gycs\\projest_upgrade\\StudentProject\\obj\\",
+      "outputPath": "D:\\SULIS\\2023-2024\\gycs\\project_upgrade\\StudentProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mnand\\AppData\\Roaming\\NuGet\\NuGet.Config",
